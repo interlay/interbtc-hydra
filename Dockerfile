@@ -1,4 +1,4 @@
-FROM docker.io/library/node:18-slim AS node
+FROM docker.io/library/node:22-slim AS node
 
 FROM node AS node-with-gyp
 RUN apt update -y && apt install -y g++ make python3 tini
