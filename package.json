@@ -32,7 +32,7 @@
         "@subsquid/archive-registry": "^1.0.12",
         "@subsquid/big-decimal": "^0.0.0",
         "@subsquid/graphql-server": "^3.3.0",
-        "@subsquid/ss58": "^0.1.0",
+        "@subsquid/ss58": "^2.0.2",
         "@subsquid/substrate-processor": "^2.0.2",
         "@subsquid/typeorm-codegen": "0.3.0",
         "@subsquid/typeorm-migration": "^0.1.4",

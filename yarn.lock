@@ -1806,20 +1806,21 @@
     "@subsquid/util-internal-hex" "^0.0.2"
     "@subsquid/util-internal-json" "^0.2.1"
 
-"@subsquid/ss58-codec@^0.1.2":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@subsquid/ss58-codec/-/ss58-codec-0.1.2.tgz#e3ddbc806c6df854e40839837908e7312551aeba"
-  integrity sha512-fyTFjx60m0j4aNJMocNaJBptc/TWh9BCb33gtVPfcPV6gVIPhH37rbHaXz3+9NlnsLAiOuxrzDfbKOcxws/ZdA==
+"@subsquid/ss58-codec@^1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@subsquid/ss58-codec/-/ss58-codec-1.2.3.tgz#7a139ea59357cac7290719f08452a15828fbd3f6"
+  integrity sha512-PFWGOYDVEa1F+u5NoH4pJcBRCe4vv6B0U4nvgmwTA+PShhVB8aC6TjZZmMOE8/BLEDjRIpT7avpz7VR7zI6H0A==
   dependencies:
     base-x "^4.0.0"
     blake2b "^2.1.4"
 
-"@subsquid/ss58@^0.1.0":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@subsquid/ss58/-/ss58-0.1.4.tgz#a7198a433bb720aba019aa47cefe828f36d24c25"
-  integrity sha512-YM7Wt+upN8M5IZ9tr+yxHafBOWCcvJzXz4rlC62SM7VCP++ErqbBtui03yROussGTSAjBObXgzVljYypG0kawQ==
+"@subsquid/ss58@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@subsquid/ss58/-/ss58-2.0.2.tgz#dbc7fccaf1634b34b5ae3c43f6b4a12d94cdb350"
+  integrity sha512-2chHMJ7jXvZzYQiXiA5MYYAVBobPcnQxWt3/jsiiZT6vWorjlVElXoQjZ0G/FKRHCcJ4GD10zDd8sG+7sPp2fw==
   dependencies:
-    "@subsquid/ss58-codec" "^0.1.2"
+    "@subsquid/ss58-codec" "^1.2.3"
+    "@subsquid/util-internal-hex" "^1.2.2"
 
 "@subsquid/substrate-metadata-explorer@^1.0.9":
   version "1.1.2"
@@ -1950,6 +1951,11 @@
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/@subsquid/util-internal-hex/-/util-internal-hex-0.0.2.tgz#ac30e524db7d1dcba0d0e5c058767d70ea24a363"
   integrity sha512-EgqYmZjJ6ox885tXBObEAZQZImpRc5pFzQeOLEh78gGPTc39IH3VI4BG0zaomStvgBx+e25M7Y2cc+ae+ttuXQ==
+
+"@subsquid/util-internal-hex@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@subsquid/util-internal-hex/-/util-internal-hex-1.2.2.tgz#958ab0aceac0b1160227a688d9d3099c6230f27f"
+  integrity sha512-E43HVqf23jP5hvtWF9GsiN8luANjnJ1daR2SVTwaIUAYU/uNjv1Bi6tHz2uexlflBhyxAgBDmHgunXZ45wQTIw==
 
 "@subsquid/util-internal-http-client@^0.1.0":
   version "0.1.0"
