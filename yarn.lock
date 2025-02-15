@@ -1690,14 +1690,15 @@
   resolved "https://registry.yarnpkg.com/@sqltools/formatter/-/formatter-1.2.5.tgz#3abc203c79b8c3e90fd6c156a0c62d5403520e12"
   integrity sha512-Uy0+khmZqUrUGm5dmMqVlnvufZRSK0FbYzVgp0UMstm+F5+W2/jnEEQyc9vo1ZR/E5ZI/B1WjjoTqBqwJL6Krw==
 
-"@subsquid/archive-registry@^1.0.12":
-  version "1.0.18"
-  resolved "https://registry.yarnpkg.com/@subsquid/archive-registry/-/archive-registry-1.0.18.tgz#9e5639b29b4fac306a35bc4394509dad06429f11"
-  integrity sha512-3o1adzHc0Xxj7jlIEC3A6fmyfMcAHuIFE9mEsE1Fp+0O76moqCpvRYCtu8qBWNqudq2BjfjiswPJnK1ouCOMUQ==
+"@subsquid/archive-registry@^3.3.2":
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/@subsquid/archive-registry/-/archive-registry-3.3.2.tgz#d6154c2b7405bc633a89830b8deb6d34cf7b5cfb"
+  integrity sha512-8Zt+Kr8z/mapouRsr90EbfMH2t5KaaSOg7oQYmIqF8ndUeEwa2b23Bb8xNaoo3uvVL2UUM9oxxuxmCf9ixZC7Q==
   dependencies:
-    node-abort-controller "^3.0.1"
-    node-fetch "^2"
-    semver "^7.3.5"
+    "@subsquid/util-internal" "^1.0.0"
+    commander "^10.0.0"
+    easy-table "^1.2.0"
+    sync-fetch "^0.5.2"
 
 "@subsquid/big-decimal@^0.0.0":
   version "0.0.0"
@@ -3879,6 +3880,15 @@ eastasianwidth@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/eastasianwidth/-/eastasianwidth-0.2.0.tgz#696ce2ec0aa0e6ea93a397ffcf24aa7840c827cb"
   integrity sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==
+
+easy-table@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/easy-table/-/easy-table-1.2.0.tgz#ba9225d7138fee307bfd4f0b5bc3c04bdc7c54eb"
+  integrity sha512-OFzVOv03YpvtcWGe5AayU5G2hgybsg3iqA6drU8UaoZyB9jLGMTrz9+asnLp/E+6qPh88yEI1gvyZFZ41dmgww==
+  dependencies:
+    ansi-regex "^5.0.1"
+  optionalDependencies:
+    wcwidth "^1.0.1"
 
 ee-first@1.1.1:
   version "1.1.1"
@@ -6426,7 +6436,7 @@ node-domexception@^1.0.0:
   resolved "https://registry.yarnpkg.com/node-domexception/-/node-domexception-1.0.0.tgz#6888db46a1f71c0b76b3f7555016b63fe64766e5"
   integrity sha512-/jKZoMpw0F8GRwl4/eLROPA3cfcXtLApP0QzLmUT/HuPCZWyB7IY9ZrMeKw2O/nFIqPQB3PVM9aYm0F312AXDQ==
 
-node-fetch@^2, node-fetch@^2.6.7, node-fetch@^2.7.0:
+node-fetch@^2.6.1, node-fetch@^2.6.7, node-fetch@^2.7.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.7.0.tgz#d0f0fa6e3e2dc1d27efcd8ad99d550bda94d187d"
   integrity sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==
@@ -8205,6 +8215,13 @@ supports-preserve-symlinks-flag@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
+
+sync-fetch@^0.5.2:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/sync-fetch/-/sync-fetch-0.5.2.tgz#65e7ae1133219938dc92eb19aa21d5eb79ebadec"
+  integrity sha512-6gBqqkHrYvkH65WI2bzrDwrIKmt3U10s4Exnz3dYuE5Ah62FIfNv/F63inrNhu2Nyh3GH5f42GKU3RrSJoaUyQ==
+  dependencies:
+    node-fetch "^2.6.1"
 
 taketalk@^1.0.0:
   version "1.0.0"
