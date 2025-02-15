@@ -34,7 +34,7 @@
         "@subsquid/graphql-server": "^3.3.0",
         "@subsquid/ss58": "^0.1.0",
         "@subsquid/substrate-processor": "^2.0.2",
-        "@subsquid/typeorm-codegen": "0.3.0",
+        "@subsquid/typeorm-codegen": "2.0.2",
         "@subsquid/typeorm-migration": "^0.1.4",
         "@subsquid/typeorm-store": "^0.1.5",
         "bitcoinjs-lib": "^5.2.0",
